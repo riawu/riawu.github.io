@@ -1,0 +1,298 @@
+*{
+    margin: 0 ;
+    border: 0;
+}
+body{
+    margin: 0 auto;
+    border: 0;
+}
+.frontpage{
+    height:100vh;
+    overflow: hidden;
+    background-image: url('../img/city.jpg');
+    background-size: cover;
+    position: relative;
+}
+#logo1{
+    height:500px;
+    overflow: hidden;
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30px;
+}
+.backpage{
+    min-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.box{
+    width: 1130px;
+    margin: 0 auto;
+}
+#bloods{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-image: url('../img/bloods.jpg');
+    background-size: cover;
+    position: relative;
+}
+#girlghost1{
+    width: 30%;
+    height: 500px;
+    overflow: hidden;
+    background-image: url('../img/女人s.png');
+    background-size: cover;
+    position: relative;
+    float: left;
+}
+#hand1{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    background-image: url('../img/手1.png');
+    background-size: cover;
+    position: absolute;
+    right: 25%;
+    bottom: 25%;
+}
+#hand2{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-image: url('../img/手2.png');
+    background-size: cover;
+    position: absolute;
+    right: 10%;
+    bottom: 40%;
+}
+#bloods{
+    position: relative;
+}
+#bloods p{
+    letter-spacing: 4px;
+    font-weight: 900;
+    top: 200px;
+    position: absolute;
+    font-size: 26px;
+    z-index: 999;
+    left:50%;
+    transform: translateX(-50%);
+}
+#logo2{
+    height:500px;
+    overflow: hidden;
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nav-item, .nav-link{
+    font-size: 18px;
+    text-align: center;
+    margin: auto
+}
+#sliderL h1{
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#sliderM h1{
+    color: gray;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#sliderR h1{
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#regarding{
+    width: 35%;
+    height: 70%;
+    background-color: white;
+    opacity: 0.3;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    padding: 30px 50px;
+}
+#regarding p{
+    color:black;
+}
+#price{
+    width: 100%;
+    height: 95vh;
+    background-color: #fff;
+    position: relative;
+}
+#price h1{
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    font-weight: bold;
+}
+#card1{
+    max-width: 1130px;
+    width: 1130px;
+    height: 60vh;
+    border: solid 1px black;
+    margin: 0 auto;
+    position: relative;
+    top: 15vh;
+}
+#price h3{
+    text-align: center;
+    position: relative;
+    top: 1vh;
+    font-weight: bold;
+}
+#price p{
+    text-align: center;
+    position: relative;
+    top: 1vh;
+}
+#news{
+    width: 100%;
+    height: 95vh;
+    background-color: #fff;
+    position: relative;
+}
+#news h1{
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    font-weight: bold;
+}
+#card2{
+    max-width: 1130px;
+    width: 1130px;
+    height: 60vh;
+    margin: 0 auto;
+    position: relative;
+    top: 15vh;
+}
+#news h3{
+    text-align: center;
+    position: relative;
+    top: 1vh;
+    font-weight: bold;
+}
+#news p{
+    text-align: center;
+    position: relative;
+    top: 1vh;
+}
+#souvenir{
+    width: 100%;
+    height: 150vh;
+    background-color: #fff;
+    position: relative;
+}
+#souvenir h1{
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    font-weight: bold;
+}
+#card3{
+    max-width: 1130px;
+    width: 1130px;
+    height: 80vh;
+    margin: 0 auto;
+    position: relative;
+    top: 15vh;
+}
+#souvenir h3{
+    text-align: center;
+    position: relative;
+    top: 1vh;
+    font-weight: bold;
+}
+#souvenir h4{
+    text-align: center;
+    position: relative;
+    top: 25.3vh;
+    font-weight: bold;
+    font-size: 28px;
+}
+#souvenir .col-sm-3{
+    padding: 0;
+}
+#food{
+    width: 100%;
+    height: 95vh;
+    background-color: #fff;
+    position: relative;
+}
+#food h1{
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    font-weight: bold;
+}
+#card4{
+    max-width: 1130px;
+    width: 762px;
+    height: 60vh;
+    margin: 0 auto;
+    position: relative;
+    top: 15vh;
+}
+#food h3{
+    text-align: center;
+    position: relative;
+    top: 1vh;
+    font-weight: bold;
+}
+#last{
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+    background-image: url('../img/最後.jpg');
+    background-size: cover;
+    position: relative;
+    opacity: .8;
+}
+#last h1{
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    font-weight: bold;
+    color: aliceblue
+}
+#last p{
+    text-align: center;
+    position: relative;
+    top: 30vh;
+    color: aliceblue;
+    font-size: 21px;
+}
+.whitebar{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: 50vh;
+    opacity: 0.6;
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+}
+#fb{
+    height: 5vh;
+    position: relative;
+    margin: 0 10px;
+}
+#ig{
+    height: 5vh;
+    position: relative;
+    margin: 0 10px;
+}
